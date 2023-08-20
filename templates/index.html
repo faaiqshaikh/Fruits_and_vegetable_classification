@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fruits and Vegetables Classification</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4">Fruits and Vegetables Classification</h1>
+        <form action="/upload" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <input type="file" class="form-control-file" name="image">
+            </div>
+            <button type="submit" class="btn btn-primary">Classify</button>
+        </form>
+        <div class="mt-4">
+            <h2>Prediction:</h2>
+            <p>{{ prediction }}</p>
+            <img src="{{ image }}" alt="Uploaded Image" class="img-fluid" width="300">
+        </div>
+    </div>
+</body>
+</html>
