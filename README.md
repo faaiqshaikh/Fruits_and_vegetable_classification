@@ -50,12 +50,10 @@ project_root/
 ├── app.py
 ├── static/
 │   └── images/
+├── Model Training/
+│   └── Group4_2004_final.ipynb/
 ├── my_model.h5
-├── fruits_and_vegetables_classification/
-│   ├── train/
-│   │   ├── apple/
-│   │   ├── banana/
-│   │   └── ...
+
 ├── templates/
 │   └── index.html
 ├── requirements.txt
