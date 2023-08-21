@@ -49,7 +49,7 @@ The app can also be easily deployed to Heroku for public access. Follow the step
 project_root/
 ├── app.py
 ├── static/
-│   └── images/
+│   └── images(to store uploaded images)/
 ├── Model Training/
 │   └── Group4_2004_final.ipynb/
 ├── my_model.h5
